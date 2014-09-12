@@ -1,0 +1,27 @@
+#+TITLE: Dave Bjergaard's Lab Notebook
+#+INCLUDE: frontmatter.org
+* Welcome to my research logbook
+This website is my "Lab Notebook." Here you will find my daily/weekly
+entries regarding whatever research project I'm working on at the
+moment.  The archive page contains links to all of my previous
+entries. Email me if you feel you should have access to those posts.
+
+** My research (in plain English)
+I'm currently working on studying the /charm/ quark.  Understanding
+the charm quark has a rich history.  In the mid-90s a theoretical
+framework (non-relativistic quantum chromodynamics, or NRQCD) was
+developed that does a very good job of describing experimental data.
+Except for one area (charm quark production in hadrons), it has stood
+up to every experimental test.
+
+I am working to develop and measure new variables which may shed light
+onto the mechanism for the production of charm, anti-charm pairs (a
+pair is referred to as /charmonium/) at high energy collisions at the
+LHC.  Previous experiments (namely the Tevatron), have measured a much
+higher rate of unpolarized charmonium particles.  The predictions by
+the theory predict strong polarization.  Polarization means that the
+particle preferentially decays in one direction.  
+
+Understanding this problem will lead to a better understanding of the
+nuances of NRQCD, as well as laying to rest an open problem in the
+Standard Model (one of physics' most successful theories).
