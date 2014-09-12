@@ -1,0 +1,42 @@
+#+TITLE:    External Links
+#+INCLUDE: frontmatter.org
+** Physics links
+   * [[http://root.cern.ch][Get ROOT here]]
+   * [[./the-guide][A Hitchhiker's Guide to High Energy Physics]] - a survival guide
+   * [[https://github.com/dbjergaard/hep-toolkit][My HEP toolkit ]]
+   * [[https://github.com/dbjergaard/rivet-jet-charge][Code for BOOST2012]] (including Condor Infrastructure and MC
+     Steering)
+
+** Design of this website
+   * The layout for this site was based heavily off of the article by
+     Israel Herraiz:  [[http://blog.herraiz.org/archives/241][Using Emacs org-mode for web publishing]]
+     <2014-01-08 Wed> /link is dead/. 
+   * Some of the CSS for this site was taken from
+     <2014-04-08 Tue>/link is dead/ [[http://www.code-sucks.com/css%20layouts/fixed-width-css-layouts/][Code Sucks]]
+   * Other parts of the CSS was taken from [[http://thomasf.github.com/solarized-css/][Solarized CSS]]
+   * The redesign of this site was influenced by:
+     - [[http://practicaltypography.com/][Practical Typography]]
+     - [[http://www.georgduffner.at/ebgaramond/][EB Garamond]] by Georg Duffner.  
+     - [[http://aldusleaf.org/0-crimson.html][Crimson Font]] by Sebastian Kosch (a fellow grad student!)
+# * ROOTisms
+# ROOT is a monolithic, multifunctional, multi-faceted analysis
+# framework written by Physicist-hackers.  It is an shining example of
+# real-world software design, and it has grown up over many major
+# experiments in HEP.  
+
+# Its great because its the only show in town.  There are plenty of
+# other open source tools which serve similar purposes, but none provide
+# a uniform interface to tackle all of the day to day tasks of a HEP
+# physicist.
+
+# What I'm trying to get at is that I have a deep respect for the
+# software, but that doesn't mean it doesn't have subtle idiosyncrasies
+# that will jump out and bite you when you least expect it.
+
+# PS. It seems that the ROOT developers feel my pain as well, but the
+# counter argument for change is backwards compatibility: [[http://root.cern.ch/drupal/content/root6-and-backward-compatibility][ROOT 6
+# backwards compatability]]. 
+
+# Do you have one? Email me and I'll include it.  This is done in the
+# style of the [[http://en.wikipedia.org/wiki/The_Unix-Haters_Handbook][Unix Hater's handbook]]. 
+# #+INCLUDE: ./rootisms.org org

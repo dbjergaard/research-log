@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'crimson';
+    src: url('../font/crimson-bold-webfont.eot');
+    src: url('../font/crimson-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/crimson-bold-webfont.woff') format('woff'),
+         url('../font/crimson-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../font/crimson-bolditalic-webfont.eot');
+    src: url('../font/crimson-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/crimson-bolditalic-webfont.woff') format('woff'),
+         url('../font/crimson-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../font/crimson-italic-webfont.eot');
+    src: url('../font/crimson-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/crimson-italic-webfont.woff') format('woff'),
+         url('../font/crimson-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../font/crimson-roman-webfont.eot');
+    src: url('../font/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/crimson-roman-webfont.woff') format('woff'),
+         url('../font/crimson-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../font/crimson-semibold-webfont.eot');
+    src: url('../font/crimson-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/crimson-semibold-webfont.woff') format('woff'),
+         url('../font/crimson-semibold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../font/crimson-semibolditalic-webfont.eot');
+    src: url('../font/crimson-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/crimson-semibolditalic-webfont.woff') format('woff'),
+         url('../font/crimson-semibolditalic-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+
+}
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+/* Resets the spacing */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 0.9em;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+small {
+  font-size: 80%;
+}
+img {
+    max-width=100%;
+    float:center;
+    height: auto;
+    border: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Inconsolata', monospace, sans-serif;
+  font-size: 1em;
+}
+code {
+  background-color: #eee8d5;
+  padding: 2px;
+}
+a {
+    font-family: 'crimson',sans-serif;
+    font-variant: small-caps;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    margin: 0.1em;
+    color: black;
+}
+a:hover{
+    background: #D0D0D0;
+}
+a:visited{
+    color: #5A5A5A;
+}
+b {
+    font-weight: 600;
+}
+body
+{
+    font-family: 'crimson', serif;
+    -moz-font-feature-settings: "liga", "calt", "xtex";
+    -webkit-font-feature-settings: "liga", "calt", "xtex";
+    -ms-font-feature-settings: "liga", "xtex";
+    -o-font-feature-settings: "liga", "xtex";
+    font-feature-settings: "liga", "xtex";
+    font-size: 16pt; 
+    text-align: justify;
+    line-height: 1.3em;
+    clear: center;
+    width: 37em;
+    padding: 50px;
+    margin: 0 auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+p {
+    margin: 1em;
+}
+h1 {
+  font-size: 1.7em;
+}
+h2 {
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 1.1em;
+}
+h4 {
+  font-size: 1.0em;
+}
+h5 {
+  font-size: 0.9em;
+}
+h6 {
+  font-size: 0.8em;
+}
+pre {
+  background-color: #fdf6e3;
+  color: #657b83;
+  border: 1pt solid #93a1a1;
+  padding: 1em;
+  /* box-shadow: 5pt 5pt 8pt #eee8d5; */
+}
+pre,code {
+  background-color: #fdf6e3;
+}
+.tag {
+  background-color: #eee8d5;
+  color: #d33682;
+  padding: 0 0.2em;
+}
+.todo,
+.next,
+.done {
+  color: #fdf6e3;
+  background-color: #dc322f;
+  padding: 0 0.2em;
+}
+.tag {
+  -webkit-border-radius: 0.35em;
+  -moz-border-radius: 0.35em;
+  border-radius: 0.35em;
+}
+.TODO {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #2aa198;
+}
+.NEXT {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #268bd2;
+}
+.ACTIVE {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #268bd2;
+}
+.DONE {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #859900;
+}
+.WAITING {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  foreground-color: #cb4b16;
+}
+.HOLD {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  foreground-color: #d33682;
+}
+.NOTE {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  foreground-color: #d33682;
+}
+.CANCELLED {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  foreground-color: #859900;
+}
+
+
+
+#header
+{
+    margin: 0 auto;
+    padding: 20px;
+}
+#footer
+{
+    text-align: right;
+    padding: 20px;
+    height: 1%;
+}
+
+div.figure {
+  float: center;
+  width: 61%;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  transition:width 1s, height 1s;
+  -moz-transition:width 1s, height 1s, -moz-transform 1s; /* Firefox 4 */
+  -webkit-transition:width 1s, height 1s, -webkit-transform 1s; /* Safari and Chrome */
+  -o-transition:width 1s, height 1s, -o-transform 1s; /* Opera */
+}
+div.figure p {
+  text-align: center;
+  font-style: 'EB Garamond Italic',italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+div.figure:hover {
+    width:800px;
+    height:600px;
+}
+img.scaled {
+    width: 100%;
+}

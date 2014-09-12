@@ -1,0 +1,7 @@
+#+TITLE:     About
+#+INCLUDE: frontmatter.org
+* About the Author
+I'm a physics graduate student at Duke University.  I enjoy solving
+physics problems, as well as vintage audio and leveraging EMACS to do
+interesting things (like brewing coffee and making toast).
+

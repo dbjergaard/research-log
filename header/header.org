@@ -1,0 +1,3 @@
+|------+-------+---------+----------------+-----------------+-------|
+| [[file:./index.org][Home]] | [[file:about.org][About]] | [[file:./contact.org][Contact]] | [[file:./archive.org][ Entry Archive]] | [[file:digests.org][Project Digests]] | [[file:./links.org][Links]] |
+|------+-------+---------+----------------+-----------------+-------|
