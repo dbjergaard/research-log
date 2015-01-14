@@ -1,5 +1,6 @@
 (require 'org)
-(setq org-publish-project-alist
+(setq org-html-metadata-timestamp-format "%m/%d/%Y"
+      org-publish-project-alist
       '(("rlog-orgfiles"
 	 :base-directory "~/research-log/"
 	 :base-extension "org"
@@ -13,7 +14,7 @@
 	 :style-include-default nil
 	 :style "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\" />"
 	 :html-preamble t
-	 :html-postamble "<p class=\"postamble\"><hr/> Written by: %a. Last updated %d. </p>")
+	 :html-postamble "<p class=\"postamble\"> Written by: %a. Last updated %d. </p>")
 	("rlog-images"
 	 :base-directory "~/research-log/images/"
 	 :base-extension "jpg\\|gif\\|png"

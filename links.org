@@ -12,7 +12,7 @@
      Israel Herraiz:  [[http://blog.herraiz.org/archives/241][Using Emacs org-mode for web publishing]]
      <2014-01-08 Wed> /link is dead/. 
    * Some of the CSS for this site was taken from
-     <2014-04-08 Tue>/link is dead/ [[http://www.code-sucks.com/css%20layouts/fixed-width-css-layouts/][Code Sucks]]
+     <2014-04-08 Tue> /link is dead/ [[http://www.code-sucks.com/css%20layouts/fixed-width-css-layouts/][Code Sucks]]
    * Other parts of the CSS was taken from [[http://thomasf.github.com/solarized-css/][Solarized CSS]]
    * The redesign of this site was influenced by:
      - [[http://practicaltypography.com/][Practical Typography]]

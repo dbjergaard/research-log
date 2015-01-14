@@ -1,7 +1,28 @@
 #+TITLE:     About
 #+INCLUDE: frontmatter.org
 * About the Author
-I'm a physics graduate student at Duke University.  I enjoy solving
-physics problems, as well as vintage audio and leveraging EMACS to do
-interesting things (like brewing coffee and making toast).
+I'm a PhD. candidate at Duke university.  When I'm not working hard
+to understand the experimental subtleties of measuring properties of
+Quantum Chromodynamics, I can be found:
+- Maintaining [[https://github.com/stumpwm/stumpwm][StumpWM]], a tiling window manager written in Common Lisp 
+- Hacking on various personal [[https://github.com/dbjergaard?tab%3Drepositories][software projects]]
+- Extending and Hacking Emacs
+- Reading anything I can get my hands on, recently though:
+  - Structure and Interpretation of Computer Programs
+  - Count of Monte Cristo - Alexander Dumas
+  - Moonstone - Wilkie Collins  
+  - Cloud Atlas - David Mitchell
+- Brewing Beer, I've made:
+  - Patersbier
+  - Raspberry wheat beer
+  - Northern Brewer's Caribou Slobber
+- Taking Photographs
 
+I care deeply about communicating my work clearly, concisely and with
+good design. To that end I've been significantly influenced by:
+- [[http://practicaltypography.com/][Butterick's Practical Typography]]
+- The Visual Display of Quantitative Information - Edward Tufte
+
+If you would like to know /all/ of my professional history:
+- [[./curriculum-vitae.org][Curriculum Vitae]]
+- [[http://inspirehep.net/search?ln%3Den&p%3DBjergaard%252C%2BD&of%3Dhb&action_search%3DSearch][Inspire HEP citations]]

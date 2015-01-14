@@ -1,4 +1,5 @@
 #+TITLE:     Contact
 #+INCLUDE: frontmatter.org
 
-I can be contacted at dbjergaard@gmail.com.  
+I can be contacted at [[mailto:david.b@phy.duke.edu][david.b@phy.duke.edu]].  
+
