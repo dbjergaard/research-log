@@ -5,6 +5,8 @@ deals with extremely granular material, a digest is a document which
 examines the state of the project as a whole.  It should ideally
 include plots which represent the march of progress, along with any
 results that are important or relevant.
+* Charmonium in Data
+#+INCLUDE: charmonium-in-data-digest.org org
 * Rivet Charmonium Studies
 #+INCLUDE: charmonium-rivet-studies-digest.org org
 * Jet Charge in W+Jets data

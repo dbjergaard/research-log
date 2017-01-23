@@ -1,330 +1,295 @@
-@font-face {
-    font-family: 'crimson';
-    src: url('../font/crimson-bold-webfont.eot');
-    src: url('../font/crimson-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/crimson-bold-webfont.woff') format('woff'),
-         url('../font/crimson-bold-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+/* Hacked from https://github.com/daveliepmann/tufte-css
+ The MIT License (MIT)
+Copyright (c) 2014 Dave Liepmann
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
 
-}
 @font-face {
-    font-family: 'crimson';
-    src: url('../font/crimson-bolditalic-webfont.eot');
-    src: url('../font/crimson-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/crimson-bolditalic-webfont.woff') format('woff'),
-         url('../font/crimson-bolditalic-webfont.ttf') format('truetype');
+    font-family: 'charter';
+    src: url('font/charter_bold_italic-webfont.eot');
+    src: url('font/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/charter_bold_italic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
 }
 @font-face {
-    font-family: 'crimson';
-    src: url('../font/crimson-italic-webfont.eot');
-    src: url('../font/crimson-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/crimson-italic-webfont.woff') format('woff'),
-         url('../font/crimson-italic-webfont.ttf') format('truetype');
+    font-family: 'charter';
+    src: url('font/charter_bold-webfont.eot');
+    src: url('font/charter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/charter_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'charter';
+    src: url('font/charter_italic-webfont.eot');
+    src: url('font/charter_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/charter_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
 }
 @font-face {
-    font-family: 'crimson';
-    src: url('../font/crimson-roman-webfont.eot');
-    src: url('../font/crimson-roman-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/crimson-roman-webfont.woff') format('woff'),
-         url('../font/crimson-roman-webfont.ttf') format('truetype');
+    font-family: 'charter';
+    src: url('font/charter_regular-webfont.eot');
+    src: url('font/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/charter_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-@font-face {
-    font-family: 'crimson';
-    src: url('../font/crimson-semibold-webfont.eot');
-    src: url('../font/crimson-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/crimson-semibold-webfont.woff') format('woff'),
-         url('../font/crimson-semibold-webfont.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'crimson';
-    src: url('../font/crimson-semibolditalic-webfont.eot');
-    src: url('../font/crimson-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/crimson-semibolditalic-webfont.woff') format('woff'),
-         url('../font/crimson-semibolditalic-webfont.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-
 }
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
 
-/* Resets the spacing */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-/* table, */ caption, /* tbody, tfoot, thead, tr, th, td  */{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+html { font-size: 15px; }
+
+body { width: 87.5%;
+       margin-left: auto;
+       margin-right: auto;
+       padding-left: 12.5%;
+       font-family: charter, "Book Antiqua", Georgia, serif;
+       background-color: #fffff8;
+       color: #111;
+       max-width: 1400px;
+       counter-reset: sidenote-counter; }
+example {
+    width: 75%;
 }
 
-body {
-	line-height: 1;
+h1 { font-weight: 400;
+     margin-top: 4rem;
+     margin-bottom: 1.5rem;
+     font-size: 3.2rem;
+     line-height: 1; }
+h1.title {
+    text-align: left;
 }
+h2 { font-style: italic;
+     font-weight: 400;
+     margin-top: 2.1rem;
+     margin-bottom: 0;
+     font-size: 2.2rem;
+     line-height: 1; }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    /* margin: 0.9em; */
-}
-h2, h3 {
-    border-bottom:1px solid #303030;
-    float:left;
-    width:100%;
-    padding-bottom:3px;
-}
-b,
-strong {
-  font-weight: bold;
-}
-dfn {
-  font-style: italic;
-}
-mark {
-  background: #ff0;
-  color: #000;
-}
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
+h3 { font-style: italic;
+     font-weight: 400;
+     font-size: 1.7rem;
+     margin-top: 2rem;
+     margin-bottom: 0;
+     line-height: 1; }
 
-small {
-  font-size: 80%;
-}
-img {
-    max-width=100%;
-    float:center;
-    height: auto;
-    border: 0;
-}
-textarea {
-  overflow: auto;
-  vertical-align: top;
-}
+p.subtitle { font-style: italic;
+             margin-top: 1rem;
+             margin-bottom: 1rem;
+             font-size: 1.8rem;
+             display: block;
+             line-height: 1; }
 
-table {
-    width: 95%;
-    margin-left:2%;
-    margin-right:2%;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-code,
-kbd,
-pre,
-samp {
-  font-family: 'Inconsolata', monospace, sans-serif;
-  font-size: 1em;
-}
-code {
-  background-color: #eee8d5;
-  padding: 2px;
-}
-a {
-    font-family: 'Source Sans Pro',sans-serif;
-    /* font-variant: small-caps; */
-    /* text-decoration: none; */
-    /* letter-spacing: 0.1em; */
-    margin: 0.1em;
-    color: black;
-}
-a:hover{
-    background: #D0D0D0;
-}
-a:visited{
-    color: #5A5A5A;
-}
-b {
-    font-weight: 600;
-}
-body
-{
-    font-family: 'crimson', serif;
-    -moz-font-feature-settings: "liga", "calt", "xtex";
-    -webkit-font-feature-settings: "liga", "calt", "xtex";
-    -ms-font-feature-settings: "liga", "xtex";
-    -o-font-feature-settings: "liga", "xtex";
-    font-feature-settings: "liga", "xtex";
-    font-size: 16pt; 
-    text-align: justify;
-    line-height: 1.3em;
-    clear: center;
-    width: 37em;
-    /* padding: 50px; */
-    margin: 0 auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+table { width: 75%;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        margin: 1.4rem 1%;
+        border-collapse: separate;
+        border-spacing: 0 5px;
+        -webkit-font-feature-settings: 'tnum'; 
+        -moz-font-feature-settings: 'tnum';
+        -ms-font-feature-settings: 'tnum'; }
 
-    color: #303030;
-    background: #F0F0F0;
-}
-#preamble{
-    padding: 20px;
-}
-title{
-  text-align: center;
-}
-#content{
-    background: #FFFFFF;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #303030;
-    padding: 2em; 
-}
-p {
-    margin: 1em;
-}
-h1 {
-  font-size: 1.7em;
-}
-h2 {
-  font-size: 1.2em;
-}
-h3 {
-  font-size: 1.1em;
-}
-h4 {
-  font-size: 1.0em;
-}
-h5 {
-  font-size: 0.9em;
-}
-h6 {
-  font-size: 0.8em;
-}
-pre {
-  background-color: #fdf6e3;
-  color: #657b83;
-  border: 1pt solid #93a1a1;
-  padding: 1em;
-  /* box-shadow: 5pt 5pt 8pt #eee8d5; */
-}
-pre,code {
-  background-color: #fdf6e3;
-}
-.tag {
-  background-color: #eee8d5;
-  color: #d33682;
-  padding: 0 0.2em;
-}
-.todo,
-.next,
-.done {
-  color: #fdf6e3;
-  background-color: #dc322f;
-  padding: 0 0.2em;
-}
-.tag {
-  -webkit-border-radius: 0.35em;
-  -moz-border-radius: 0.35em;
-  border-radius: 0.35em;
-}
-.TODO {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  background-color: #2aa198;
-}
-.NEXT {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  background-color: #268bd2;
-}
-.ACTIVE {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  background-color: #268bd2;
-}
-.DONE {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  background-color: #859900;
-}
-.WAITING {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  foreground-color: #cb4b16;
-}
-.HOLD {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  foreground-color: #d33682;
-}
-.NOTE {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  foreground-color: #d33682;
-}
-.CANCELLED {
-  -webkit-border-radius: 0.2em;
-  -moz-border-radius: 0.2em;
-  border-radius: 0.2em;
-  foreground-color: #859900;
-}
+thead th { border-bottom: 1px solid #AAAAAA;
+           font-weight: 400;
+           border-collapse: separate;
+           border-spacing: 5px 5px; }
 
+td.text { text-align: right; }
 
+span.table-label { padding-top: 8px; } /* to maintain height relative to table header row */
 
-#header
-{
-    margin: 0 auto;
-    padding: 20px;
-}
-#footer
-{
-    text-align: right;
-    padding: 20px;
-    height: 1%;
-}
+table.booktabs { width: auto;
+                 margin: 0 auto;
+                 border-spacing: 0px;
+                 border-top: 2px solid #333333;
+                 border-bottom: 2px solid #333333; }
 
-div.figure {
-  float: center;
-  width: 70%;
-  border: thin silver solid;
-  margin: 0.5em;
-  padding: 0.5em;
-  transition:width 1s, height 1s;
-  -moz-transition:width 1s, height 1s, -moz-transform 1s; /* Firefox 4 */
-  -webkit-transition:width 1s, height 1s, -webkit-transform 1s; /* Safari and Chrome */
-  -o-transition:width 1s, height 1s, -o-transform 1s; /* Opera */
-}
-div.figure p {
-  text-align: center;
-  font-style: 'crimson',italic;
-  font-size: smaller;
-  text-indent: 0;
-}
-div.figure:hover {
-    width:110%;
-    height:110%;
-}
-img.scaled {
-    width: 100%;
-}
+.booktabs th { border-bottom: 1px solid #333333;
+               padding: 0.65ex 0.5em 0.4ex 0.5em;
+               font-weight: normal;
+               text-align: center; }
+
+.booktabs th.cmid { border-bottom: 1px solid #666666; }
+
+.booktabs th.nocmid { border-bottom: none; }
+
+.booktabs tbody tr:first-child td { padding-top: 0.65ex; } /* add space between thead row and tbody */ 
+
+.booktabs td { padding-left: 0.5em;
+               padding-right: 0.5em;
+               text-align: left; }
+.booktabs caption { font-size: 90%;
+                    text-align: left;
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 1ex;
+                    caption-side: top; }
+
+.booktabs tbody tr td.l { text-align: left !important; }
+.booktabs tbody tr td.c { text-align: center !important; }
+.booktabs tbody tr td.r { text-align: right !important; }
+article { position: relative;
+          padding: 5rem 0rem; }
+
+section { padding-top: 1rem;
+          padding-bottom: 1rem; }
+
+p, ol, ul { font-size: 1.4rem; }
+
+p { line-height: 2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    padding-right: 0;
+    vertical-align: baseline; }
+
+blockquote p { font-size: 1.1rem;
+               width: 50%; }
+
+blockquote footer { width: 50%;
+                    text-align: right; }
+
+/* ul { list-style-type: none; } */
+
+li { padding: 0.5rem 0; }
+
+figure { max-width: 55%;
+         -webkit-margin-start: 0;
+         -webkit-margin-end: 0;
+         margin-bottom: 3em; }
+
+figcaption { float: right;
+             clear: right;
+             margin-right: -48%;
+             margin-top: 0;
+             margin-bottom: 0;
+             font-size: 1.0rem;
+             line-height: 1.6;
+             vertical-align: baseline;
+             position: relative; }
+
+figure.fullwidth figcaption { margin-right: 24%; }
+
+a { color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #777;
+    padding-bottom: 1px; }
+
+img { max-width: 100%; }
+
+.sidenote, .marginnote { float:right;
+                         clear: right;
+                         margin-right: -60%;
+                         width: 50%;
+                         margin-top: 0;
+                         margin-bottom: 0;
+                         font-size: 1.0rem;
+                         line-height: 1.6;
+                         vertical-align: baseline;
+                         position: relative; }
+
+.table-caption { float:right;
+                 clear:right;
+                 margin-right: -60%;
+                 width: 50%;
+                 margin-top: 0;
+                 margin-bottom: 0;
+                 font-size: 1.0rem;
+                 line-height: 1.6; }
+
+.sidenote-number { counter-increment: sidenote-counter; }
+
+.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
+                                           position: relative;
+                                           vertical-align: baseline;
+                                           color: #f00000; }
+
+.sidenote-number:after { content: counter(sidenote-counter); 
+                         font-size: 0.9rem;
+                         top: -0.5rem;
+                         left: 0.1rem; }
+
+.sidenote:before { content: counter(sidenote-counter) ". ";
+                   position: absolute;
+                   /* 100% refers to the computed width of the number, so this transform
+                    * shifts the number just outside the left edge of the sidenote box,
+                    * with a buffer of 0.25rem, no matter how many digits the number has. */
+                   -webkit-transform: translateX(-100%) translateX(-0.25rem);
+                   -ms-transform: translateX(-100%) translateX(-0.25rem);
+                   transform: translateX(-100%) translateX(-0.25rem); }
+
+p, footer, pre.code, div.table-wrapper { width: 55%; }
+
+@media screen and (max-width: 760px) { p, footer, pre.code { width: 90%; }
+                                       figure { max-width: 90%; }
+                                       blockquote p, blockquote footer { width: 90%; }}
+
+.sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+
+.code { font-family: 'Inconsolata', "Liberation Mono", monospace;
+        font-size: 1.125rem;
+        line-height: 1.6; }
+
+h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
+
+.marginnote .code, .sidenote .code { font-size: 1rem; }
+
+pre.code { padding: 0 0 0 2em;
+           overflow-x: scroll; }
+
+.fullwidth { max-width: 95%; }
+
+span.newthought { font-variant: small-caps;
+                  font-size: 1.2em; }
+
+input.margin-toggle { display: none; }
+
+label.sidenote-number { display: inline; }
+
+label.margin-toggle:not(.sidenote-number) { display: none; }
+
+@media(max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; }
+                           .sidenote, .marginnote { display: none; }
+                           .margin-toggle:checked + .sidenote, 
+                           .margin-toggle:checked + .marginnote { display: block;
+                                                                  float: left;
+                                                                  left: 1rem;
+                                                                  clear: both;
+                                                                  width: 95%;
+                                                                  margin: 1rem 2.5%;
+                                                                  vertical-align: baseline;
+                                                                  position: relative; }
+                           label { cursor: pointer; }
+                           pre.code { padding: 0; }
+                           .table-caption { display: block;
+                                            float: right;
+                                            clear: both;
+                                            width: 98%;
+                                            margin-top: 1rem;
+                                            margin-bottom: 0.5rem;
+                                            margin-left: 1%;
+                                            margin-right: 1%;
+                                            vertical-align: baseline;
+                                            position: relative; }
+                           table, table.booktabs { width: 85%; }
+                           img { width: 100%; } }

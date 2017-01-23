@@ -8,11 +8,18 @@ Quantum Chromodynamics, I can be found:
 - Hacking on various personal [[https://github.com/dbjergaard?tab%3Drepositories][software projects]]
 - Extending and Hacking Emacs
 - Reading anything I can get my hands on, recently though:
+  - Art of Intrusion - Kevin Mitnick
+  - The Honorable Schoolboy - John LeCarré 
+  - Web Application Hacker's Handbook - Dafydd Stuttard & Marcus Pinto
   - Structure and Interpretation of Computer Programs
   - Count of Monte Cristo - Alexander Dumas
-  - Moonstone - Wilkie Collins  
+  - Moonstone - Wilkie Collins
   - Cloud Atlas - David Mitchell
+  - Tinker Tailor Solder Spy - John LeCarré 
 - Brewing Beer, I've made:
+  - Spring Beer
+  - Northern Brewer's Phat Tyre
+  - Pumpkin Beer
   - Patersbier
   - Raspberry wheat beer
   - Northern Brewer's Caribou Slobber
@@ -25,4 +32,4 @@ good design. To that end I've been significantly influenced by:
 
 If you would like to know /all/ of my professional history:
 - [[./curriculum-vitae.org][Curriculum Vitae]]
-- [[http://inspirehep.net/search?ln%3Den&p%3DBjergaard%252C%2BD&of%3Dhb&action_search%3DSearch][Inspire HEP citations]]
+- [[http://inspirehep.net/search?ln%3Den&p%3Df%2Ba%2Bbjergaard&of%3Dhb&action_search%3DSearch&sf%3Dearliestdate&so%3Dd][Inspire HEP citations]]

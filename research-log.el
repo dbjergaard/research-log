@@ -6,13 +6,13 @@
 	 :base-extension "org"
 	 :publishing-directory "~/public/"
 	 :recursive t
-	 :publishing-function org-publish-org-to-html
+	 :publishing-function org-html-publish-to-html
 	 :headline-levels 3
 	 :auto-preamble t
 	 :section-numbers nil
 	 :table-of-contents nil
 	 :style-include-default nil
-	 :style "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\" />"
+	 :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\" />"
 	 :html-preamble t
 	 :html-postamble "<p class=\"postamble\"> Written by: %a. Last updated %d. </p>")
 	("rlog-images"
